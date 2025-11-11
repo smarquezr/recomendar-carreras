@@ -29,3 +29,4 @@ if st.button("Recomendar carreras"):
     # Gráfico opcional
     st.subheader("📊 Visualización de afinidades")
     st.bar_chart(recomendaciones.T.sort_values(by=0, ascending=False))
+
